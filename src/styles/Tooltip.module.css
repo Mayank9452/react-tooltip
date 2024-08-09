@@ -1,0 +1,79 @@
+.heading {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.mainContent {
+    /* text-align: center; */
+    display: flex;
+    width: 30%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(238, 235, 235);
+
+
+
+
+
+}
+
+.toolTipButton {
+    margin-top: 7rem;
+
+}
+
+.formContent {
+    margin-top: 5rem;
+}
+
+.buttonHover {
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+    background-color: rgb(213, 213, 213);
+}
+
+.buttonHover:hover {
+    background-color: aqua;
+    transition: 0.5s;
+}
+
+.custom-tooltip {
+    background-color: #333;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.hoverBackground {
+    background-color: #333;
+    /* Dark background for the tooltip */
+    color: #fff;
+    /* White text color */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 14px;
+    /* Font size */
+    padding: 8px;
+    /* Padding inside the tooltip */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    /* Optional shadow */
+    max-width: 200px;
+    /* Optional max width */
+    text-align: center;
+    /* Center-align text */
+}
